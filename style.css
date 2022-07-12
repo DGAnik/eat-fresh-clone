@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0;
+  margin: 0px;
 }
 
 span {
@@ -16,9 +16,13 @@ h2 {
 }
 
 p {
-  text-align: justified;
-  margin-bottom: 50px;
+  text-align: justify;
 }
+
+.p-below-button {
+  margin-bottom: 50px;  
+}
+
 
 .flexible-container {
   display: flex;
@@ -42,7 +46,6 @@ p {
 
 #about-me {
   margin-top: 150px;
-  margin-bottom: 0px;
 }
 
 #background-image {
@@ -50,9 +53,42 @@ p {
   background-repeat: no-repeat;
   margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 30px;
   padding: 50px 100px;
 }
 /*image-height of second section*/
 #sec-2-img {
   height: 545px;
 }
+
+/*my recipes heading*/
+#my-recipes {
+  text-align: center;
+  padding: 0px 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#my-recipes-flex {
+  display: flex;
+  margin-left: ;
+  margin-right: 50px;
+  padding-left: 50px;
+}
+
+.two-recipes {
+  border: 10px solid white;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  border-radius: 30px;
+}
+
+.recipe-image {
+  height: 300px;
+  width:550px;
+  border-radius: 30px;
+}
+
